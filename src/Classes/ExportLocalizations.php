@@ -11,7 +11,7 @@ namespace KgBot\LaravelLocalization\Classes;
 use Illuminate\Support\Facades\Cache;
 use KgBot\LaravelLocalization\Events\LaravelLocalizationExported;
 
-class ExportLocalizations implements \JsonSerializable
+class ExportLocalizations implements \JsonSerializable : mixed
 {
     /**
      * @var array
